@@ -8,9 +8,9 @@ RPi.GPIO.setmode(RPi.GPIO.BCM)
 
 ##Hardware definition  
 
-ledRed = PWMLED(17) ## board pin 11
-ledBlue = PWMLED(27) ## board pin 13
-ledGreen = PWMLED(22) ## board pin 15
+ledRed = PWMLED(18) ## board pin 18
+ledBlue = PWMLED(12) ## board pin 12
+ledGreen = PWMLED(13) ## board pin 13
 
 ##GUI Definitions 
 win = Tk()
